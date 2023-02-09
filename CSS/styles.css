@@ -1,0 +1,64 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: url(..//imagens/images/fundo.jpg) repeat-x;
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: darkgray;
+  padding: 1em;
+}
+
+form {
+  margin-left: 20px;
+  border: solid 1px;
+  border-radius: 15px;
+  padding: 0.3em;
+}
+
+form input {
+  width: 550px;
+}
+
+form input,
+button {
+  font-size: 1.2em;
+  border-radius: 0.2em;
+  border: none;
+  padding: 0.2em;
+}
+
+form button {
+  cursor: pointer;
+  background: none;
+  color: whitesmoke;
+}
+
+form button :hover {
+  background-color: white;
+  color: darkgray;
+}
+
+a {
+  margin-left: 20px;
+  border: solid 1px;
+  border-color:black;
+  border-radius: 15px;
+  padding: 0.3em;
+}
+
+a button {
+  font-size: 1.2em;
+  border-radius: 0.2em;
+  border: none;
+  padding: 0.2em;
+  cursor: pointer;
+  background: none;
+  color: whitesmoke;
+}
+
+a button :hover {
+  background-color: white;
+  color: darkgray;
+}
