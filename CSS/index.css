@@ -1,3 +1,4 @@
+*{margin:0;padding:0;box-sizing:border-box;}
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background: url(..//imagens/images/fundo.jpg) repeat-x;
@@ -15,10 +16,15 @@ form {
   border: solid 1px;
   border-radius: 15px;
   padding: 0.3em;
+  outline: none;
 }
 
 form input {
   width: 550px;
+}
+
+form input[type=text] {
+  outline: none;
 }
 
 form input,
