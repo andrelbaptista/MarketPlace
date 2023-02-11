@@ -21,6 +21,9 @@ header {
   background-color: var(--bg-color);
   padding: 1em;
 }
+.logo {
+  border: none;
+}
 
 form {
   margin-left: 20px;
@@ -35,14 +38,13 @@ form input {
 
 form input[type="text"] {
   outline: none;
+  border: none;
 }
-
 
 form input,
 button {
   font-size: 1.2em;
   border-radius: 0.2em;
-  border: none;
   padding: 0.2em;
 }
 
@@ -84,4 +86,7 @@ a button {
 a button :hover {
   background-color: white;
   color: darkgray;
+}
+label {
+  padding-left: 5px;
 }

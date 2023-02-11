@@ -1,18 +1,18 @@
 var email = document.getElementById("email");
-var password = document.getElementById("passowrd");
+var password = document.getElementById("password");
 
-email.addEventListener("focus", ()=> {
-  email.style.bordercolor = "#778899";
+email.addEventListener('focus',  () => {
+  email.style.bordercolor = "#0000ff";
 });
 
-email.addEventListener("blur", () => {
+email.addEventListener('blur',  () => {
     email.style.bordercolor = "#f5f5f5";
   });
 
-  password.addEventListener("focus", () => {
+  password.addEventListener('focus', () => {
     password.style.bordercolor = "#778899";
   });
   
-  password.addEventListener("blur", () => {
+  password.addEventListener('blur', () => {
       password.style.bordercolor = "#f5f5f5";
     });
