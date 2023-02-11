@@ -20,11 +20,12 @@ header {
   align-items: center;
   background-color: var(--bg-color);
   padding: 1em;
+
 }
 
 form {
   margin-left: 20px;
-  border: solid 1px;
+  border: none;
   border-radius: 15px;
   padding: 0.3em;
 }
@@ -42,7 +43,7 @@ form input,
 button {
   font-size: 1.2em;
   border-radius: 0.2em;
-  border: none;
+  border: solid 1px;
   padding: 0.2em;
 }
 
@@ -65,8 +66,8 @@ form button :hover {
 
 a {
   margin-left: 20px;
-  border: solid 1px;
-  border-color: black;
+  /* border: solid 1px;
+  border-color: black; */
   border-radius: 15px;
   padding: 0.3em;
 }
@@ -74,7 +75,7 @@ a {
 a button {
   font-size: 1.2em;
   border-radius: 0.2em;
-  border: none;
+  border: solid 1px; 
   padding: 0.2em;
   cursor: pointer;
   background: none;

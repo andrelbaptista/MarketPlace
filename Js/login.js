@@ -1,18 +1,18 @@
-var email = document.getElementById("email");
-var password = document.getElementById("password");
+var email = document.getElementById('email');
+var password = document.getElementById('password');
 
 email.addEventListener('focus',  () => {
-  email.style.bordercolor = "#0000ff";
+  email.style.borderColor = "#0000ff";
 });
 
-email.addEventListener('blur',  () => {
-    email.style.bordercolor = "#f5f5f5";
+email.addEventListener('blur', () => {
+    email.style.borderColor = "#778899";
   });
 
   password.addEventListener('focus', () => {
-    password.style.bordercolor = "#778899";
+    password.style.borderColor = "#0000ff";
   });
   
   password.addEventListener('blur', () => {
-      password.style.bordercolor = "#f5f5f5";
+      password.style.borderColor = "#778899";
     });
