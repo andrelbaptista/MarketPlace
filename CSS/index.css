@@ -1,4 +1,15 @@
-*{margin:0;padding:0;box-sizing:border-box;}
+:root {
+  --bg-color: darkgray;
+  --text-color: whitesmoke;
+  --bg-hover-color: whitesmoke;
+  --text-hover-color: darkgray;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background: url(..//imagens/images/fundo.jpg) repeat-x;
@@ -7,7 +18,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: darkgray;
+  background-color: var(--bg-color);
   padding: 1em;
 }
 
@@ -22,9 +33,10 @@ form input {
   width: 550px;
 }
 
-form input[type=text] {
+form input[type="text"] {
   outline: none;
 }
+
 
 form input,
 button {
@@ -35,20 +47,26 @@ button {
 }
 
 form button {
+  /* Reset Apperance */
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+
+  /*Box*/
   cursor: pointer;
   background: none;
-  color: whitesmoke;
+  color: var(--text-color);
 }
 
 form button :hover {
-  background-color: white;
-  color: darkgray;
+  background-color: var(--bg-hover-color);
+  color: var(--text-hover-color);
 }
 
 a {
   margin-left: 20px;
   border: solid 1px;
-  border-color:black;
+  border-color: black;
   border-radius: 15px;
   padding: 0.3em;
 }
