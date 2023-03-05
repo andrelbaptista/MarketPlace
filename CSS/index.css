@@ -86,3 +86,9 @@ a button :hover {
   background-color: white;
   color: darkgray;
 }
+.menu {
+  display:inline-flex;
+  list-style: none;
+  
+  
+}
